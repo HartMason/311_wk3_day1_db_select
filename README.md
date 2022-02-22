@@ -44,8 +44,8 @@ Also, put the answers in the "Query Responses" section of this README.
 ## Query Responses
 
 1.
-  * How many rows were returned:
-  * First name of the first user:
+  * How many rows were returned: 7
+  * First name of the first user: Mitsue
 
 2.
   * How many rows were returned:
