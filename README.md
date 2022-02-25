@@ -44,17 +44,17 @@ Also, put the answers in the "Query Responses" section of this README.
 ## Query Responses
 
 1.
-  * How many rows were returned: 7
+  * How many rows were returned: 7 S
   * First name of the first user: Mitsue
-
+    SELECT * from users where city = "Chicago";
 2.
-  * How many rows were returned: 2
+  * How many rows were returned: 2 
   * What states do they live in: MD and TX
-
+    SELECT DISTINCT state from users where first_name = "Glory"; 
 3.
   * How many rows were returned: 6
   * What's the last email on the list: nichelle_meteer@meteer.com
-
+    SELECT * from users where phone1 like "773%";
 ## Summary
 
 Think about how this data is laid out. Feel free to look in the `initialize.sql` file to see the raw data.
